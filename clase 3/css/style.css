@@ -1,0 +1,28 @@
+body {
+    background-color: #FFFFFF;
+    color: rgb(67, 34, 34);
+}
+
+a {
+        color:  rgb(114, 9, 9);;
+        background-color: white;
+        text-decoration: underline
+        }
+        a:focus, a:hover {
+        color: rgb(192, 163, 0);
+        background-color: black;
+        text-decoration: none
+        }
+
+h1 {
+    font-size: 75px;
+    color: rgb(192, 163, 0);
+}
+h2 {
+    font-size: 35px;
+    color: rgb(114, 9, 9);
+}
+
+p {
+    color: #d89049
+}
