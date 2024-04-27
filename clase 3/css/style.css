@@ -1,22 +1,40 @@
+* {
+    padding: 3px;
+    margin: 2px;
+    margin-left: 5px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Signika Negative", sans-serif;
+}
+
 body {
     background-color: #FFFFFF;
-    color: rgb(67, 34, 34);
+    font-size: 2rem;
+    font-family: "Signika Negative", sans-serif;
+  
 }
 
 a {
         color:  rgb(114, 9, 9);;
         background-color: white;
-        text-decoration: underline
+        text-decoration: underline;
+        font-size: 3rem;
         }
         a:focus, a:hover {
         color: rgb(192, 163, 0);
         background-color: black;
-        text-decoration: none
+        text-decoration: none;
+        font-size: 3rem;
         }
+        
 
 h1 {
     font-size: 75px;
     color: rgb(192, 163, 0);
+    
 }
 h2 {
     font-size: 35px;
@@ -24,5 +42,22 @@ h2 {
 }
 
 p {
-    color: #d89049
+    color: #a96017;
+    font-size: 3rem;
+}
+
+.situaciones {
+    color: rgb(95, 12, 98);
+    font-size: 2rem;
+}
+.ranking {
+    color: rgb(95, 12, 98);
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 10rem;
+    font-family: "Signika Negative", sans-serif;
+    color: rgb(95, 12, 98);
+    font-size: 3rem;
 }
