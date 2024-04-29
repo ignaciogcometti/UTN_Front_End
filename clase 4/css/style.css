@@ -1,0 +1,101 @@
+* {
+    padding: 3px;
+    margin: 2px;
+    margin-left: 5px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+body {
+    background-color: #e0debb;
+    font-size: 2rem;
+    font-family: "Signika Negative", sans-serif;
+  
+}
+
+a {
+        color:  rgb(114, 9, 9);;
+        background-color: white;
+        text-decoration: underline;
+        font-size: 3rem;
+        }
+        a:focus, a:hover {
+        color: rgb(192, 163, 0);
+        background-color: black;
+        text-decoration: none;
+        font-size: 3rem;
+        }
+
+.navbar {
+ 
+}
+        
+.title{
+    background-color: #a96017;
+    width: 75rem;
+    height: 10rem;
+
+
+} 
+
+h1 {
+    font-size: 75px;
+    color: rgb(192, 163, 0);
+    
+}
+h2 {
+    font-size: 35px;
+    color: rgb(114, 9, 9);
+    padding: 2rem;
+}
+
+p {
+    color: #a96017;
+    font-size: 3rem;
+}
+
+.situaciones {
+    color: rgb(95, 12, 98);
+    font-size: 2rem;
+    border: solid 5px rgb(63, 63, 147);
+    margin: 5rem 5rem;
+    background-color:#dd8833;
+}
+.ranking {
+    color: rgb(95, 12, 98);
+    font-size: 2rem;
+    border: solid 5px rgb(63, 63, 147);
+    margin: 5rem;
+    background-color:#dd8833;
+}
+
+ol {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+footer {
+    margin-top: 10rem;
+    font-family: "Signika Negative", sans-serif;
+    color: rgb(95, 12, 98);
+    font-size: 3rem;
+}
+
+.fotos_quesos {
+    background-color:#dd8833;
+    width: 95%;
+    margin: 35px;
+}
+.quesitos { 
+    border-radius: 5px;  
+    background-color: #c56300;
+    padding: 9px;
+}
