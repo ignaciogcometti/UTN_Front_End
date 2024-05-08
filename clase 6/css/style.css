@@ -1,0 +1,65 @@
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    
+    overflow: auto;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    row-gap:10px ;
+    column-gap: 20px ;
+    height: 100vh;
+    color: rgb(211, 227, 227);
+    font-size: 25px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-preview.jpg);
+  }
+  .border{
+    border: none;
+  }
+  
+  header{
+
+    grid-area: header;
+    gap: 500px;
+  }
+  footer{
+    
+    grid-area: footer;
+  }
+  
+  section#productos{
+    background-color: rgba(127, 255, 212, 0);
+    grid-area: productos;
+  }
+  section#servicios{
+    background-color: rgba(137, 203, 238, 0);
+    grid-area: servicios;
+  }
+  nav{
+    background-color: rgba(0, 128, 0, 0);
+    grid-area: nav;
+  }
+  aside{
+    background-color: rgba(255, 217, 0, 0);
+    grid-area: publicidad;
+  }
+  
+  /* Ejemplo GRID con media queries*/
+  
+  @media(min-width: 768px){
+    #grilla{
+background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/01/star-wars-winter-at-at-desktop-wallpaper-cover.jpg) ;
+color: rgb(74, 117, 117);
+font-size: 35px;
+}
+}
+  @media(min-width: 1024px){
+    #grilla{
+background-image: url(https://images5.alphacoders.com/134/1347410.png);
+color: rgb(6, 12, 97);
+font-size: 50px;    
+}
+}
