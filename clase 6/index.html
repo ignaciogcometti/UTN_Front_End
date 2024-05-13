@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Pagina Imperial</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <div id="grilla">
-        <header class="border">El mundo de star wars</header>
-        <section id="productos" class="border"><p>
-            Star Wars es una saga de películas de ciencia ficción creada por George Lucas.
-            La historia se desarrolla en una galaxia ficticia, en un tiempo indefinido, 
-            donde se libra una batalla entre el bien y el mal. La trama se centra en el conflicto 
-            entre los Jedi, quienes representan la paz y la justicia, y los Sith, que buscan el poder a cualquier costo. </p></section>
-        <section id="servicios" class="border">Star Wars es una saga de películas de ciencia ficción creada por George Lucas.
-            La historia se desarrolla en una galaxia ficticia, en un tiempo indefinido, 
-            donde se libra una batalla entre el bien y el mal. La trama se centra en el conflicto 
-            entre los Jedi, quienes representan la paz y la justicia, y los Sith, que buscan el poder a cualquier costo. </p></section>
-        <nav class="border"></nav>
-        <aside class="border">Aside</aside>
-        <footer class="border">2024 Lucasfilm Ltd. Todos los derechos reservados marcas registradas de Lucasfilm Ltd</footer>
-    </div>
+    <form action="https://formspree.io/f/xwkgzqrj" method="post" class="formulario">
+        <fieldset class="fieldset">
+        <legend class="legend">Inscripccion Torneo de Futbol Mayo</legend>
+        
+        <div class="form_group">
+        <label for="nomb_equipo" class="label">Nombre del equipo:</label>
+        <input type="text" name="nomb_equipo" id="nomb_equipo"> 
+        </div>
+
+        <div class="form_group">
+        <label for="cant_jugador" class="label">Cantidad de jugadores:</label>
+        <input type="number" name="cant_jugador" id="cant_jugador">
+        </div>
+        
+        <div class="form_group">
+        <label for="Localidad" class="label">Localidad:</label>
+        <input type="text" name="Localidad" id="Localidad">
+        </div>
+
+        <div class="form_group">
+        <Label for="Genero">Genero:</Label>
+        
+        <select name="Genero" id="Genero">
+        <option value=""></option>
+        <option value="A">Masculino</option>
+        <option value="B">Femenino</option>
+        </select>
+        </div>
+
+        <div class="form_group">
+        <label for="mensaje" class="label">Informacion adicional</label>
+        <textarea name="mensaje" id="mensaje" rows="5" cols="20"></textarea>
+        </div>
+
+        <button class="sumbit-enviar" type="submit">
+            Enviar formulario
+            </button>
+        </fieldset>
+
+    </form>
 </body>
 </html>

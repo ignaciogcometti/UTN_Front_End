@@ -1,52 +1,4 @@
-#grilla{
-    display: grid;
-    grid-template-areas: 
-    "nav header header"
-    "nav productos publicidad"
-    "nav servicios publicidad"
-    "nav footer footer";
-    
-    overflow: auto;
-    grid-template-rows: 100px 1fr 1fr 75px;
-    grid-template-columns: 20% auto 15%;
-    row-gap:10px ;
-    column-gap: 20px ;
-    height: 100vh;
-    color: rgb(211, 227, 227);
-    font-size: 25px;
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-preview.jpg);
-  }
-  .border{
-    border: none;
-  }
-  
-  header{
 
-    grid-area: header;
-    gap: 500px;
-  }
-  footer{
-    
-    grid-area: footer;
-  }
-  
-  section#productos{
-    background-color: rgba(127, 255, 212, 0);
-    grid-area: productos;
-  }
-  section#servicios{
-    background-color: rgba(137, 203, 238, 0);
-    grid-area: servicios;
-  }
-  nav{
-    background-color: rgba(0, 128, 0, 0);
-    grid-area: nav;
-  }
-  aside{
-    background-color: rgba(255, 217, 0, 0);
-    grid-area: publicidad;
-  }
-  
   /* Ejemplo GRID con media queries*/
   
   @media(min-width: 768px){
@@ -63,3 +15,50 @@ color: rgb(6, 12, 97);
 font-size: 50px;    
 }
 }
+
+.formulario {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgb(29, 25, 25);
+}
+.fieldset {
+  border: 5px solid #5f0000;
+  padding: 3rem;
+}
+
+legend {
+  font-weight: bolder;
+}
+.form_group{
+  margin-bottom: 1rem;
+}
+.label {
+  display: block;
+}
+input, textarea, select {
+  width: 100%;
+  height: 2rem;
+}
+select {
+  width: 100%;
+  height: 100%;
+}
+
+input:focus{
+  border: green;
+}
+
+.sumbit-enviar {
+padding: 1rem 2rem;
+background-color: #c90000ca;
+border: none;
+border-radius: 0.5rem;
+cursor: pointer;
+transition: ease-in 0.5s;
+}
+
+.sumbit-enviar:hover {
+  background-color: rgba(105, 4, 4, 0.805);
+}
+
