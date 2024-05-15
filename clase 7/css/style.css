@@ -1,0 +1,12 @@
+.Gradientes {
+    height: 20vh;
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.box_ejemplo {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transform: skewY(25deg);
+
+}
