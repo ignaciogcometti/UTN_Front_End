@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/sala.jpg);
+    background-image: cover;
+}
+footer {
+    background-color: blueviolet;
+}
