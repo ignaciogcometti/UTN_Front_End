@@ -1,3 +1,8 @@
+body {
+    background-image: url(../img/cancha.jpg);
+    background-size: cover;
+}
+
 .Gradientes {
     height: 20vh;
     background-image: linear-gradient(to left, red, yellow);
@@ -25,3 +30,54 @@
     animation-name: fulanito;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    width: 350px;
+    background: rgb(255,0,18);
+    background: linear-gradient(90deg, rgba(255,0,18,1) 33%, rgba(247,199,0,1) 51%, rgba(6,39,168,1) 83%);
+}
+main {
+    background-color: rgb(255,0,18);
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    width: 50%;
+}
+
+.datos_personales {
+    background-color: rgba(255,0,18,1);
+    width: 500px;
+    margin-left:450px;
+}
+
+.datos_personales:hover {
+  padding: 1rem;
+  background-color: rgba(247,199,0,1);
+  transform: skewY(1deg);
+  transition: 3s;
+  font-size: 20px;
+  color: white;
+}
+
+.carrera_profesional {
+        background-color: rgb(247,199,0,1);
+        width: 500px;
+        margin-left: 450px;}
+
+.carrera_profesional:hover{
+        padding: 1rem;
+        background-color: rgba(6,39,168,1);
+        transition: 3s;
+        font-size: 20px;
+        color: white;
+    }
+
+    h1:hover {
+        font-size: 20px;
+        transition: 5s;
+        color: white;
+    }
