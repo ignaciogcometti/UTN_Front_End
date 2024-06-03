@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(../img/sala.jpg);
+    background-image: cover;
+    background-image: re;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img {
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Hace que la imagen se ajuste al contenedor */
+  }
+
+.navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar1 {
+    margin-bottom: 5px;
+    
+}
